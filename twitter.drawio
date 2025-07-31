@@ -1,0 +1,451 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="4">
+  <diagram name="Требования" id="Q2vE0hcxFqmGpiZrv6sP">
+    <mxGraphModel dx="777" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="86J9KkAoiwg2zzKOnrBe-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NFR&lt;/h1&gt;&lt;p&gt;Тяжелое чтение (видео, ссылки на сайты)&lt;/p&gt;&lt;p&gt;Быстрый рендеринг&lt;/p&gt;&lt;p&gt;Быстрые твиты&lt;/p&gt;&lt;p&gt;В некоторыхслучаях возможна задержка&lt;/p&gt;&lt;p&gt;Масштаб:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;150 млн DAU (Daily Active Users)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;350 млн MAU (Monthly Active Users)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;15 млрд учетных записей&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;500 млн твитов&amp;nbsp; день&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="86J9KkAoiwg2zzKOnrBe-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;FR&lt;/h1&gt;&lt;p&gt;tweet&lt;/p&gt;&lt;p&gt;re-tweet&lt;/p&gt;&lt;p&gt;Follow&lt;/p&gt;&lt;p&gt;Search&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="40" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="86J9KkAoiwg2zzKOnrBe-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Категории пользователей&lt;/h1&gt;&lt;p&gt;Famous - большое оличествофоловеров&lt;/p&gt;&lt;p&gt;Active - заходившие последние несколько часов&lt;/p&gt;&lt;p&gt;Live - были офлайн, но стали онлайн&lt;/p&gt;&lt;p&gt;Passive - те кто не попадаю в категории выше&lt;/p&gt;&lt;p&gt;Inactive - которые е были активны длительное время&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="330" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JV5C61ozd3UskgIVZS3D" name="User">
+    <mxGraphModel dx="1133" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bE838J-4COU1uqkMOp3l-1" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;- onBoarding&lt;/div&gt;&lt;div&gt;- Login&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-2" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-3" target="bE838J-4COU1uqkMOp3l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-3" value="User Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;- follow&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User App/Website&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-3" target="bE838J-4COU1uqkMOp3l-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-6" value="User DB&lt;br&gt;PosgtreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.977;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-3" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-9" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-3" target="bE838J-4COU1uqkMOp3l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-11" value="Kafka" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="827" y="130" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-16" target="bE838J-4COU1uqkMOp3l-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-16" value="Graph Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-16" target="bE838J-4COU1uqkMOp3l-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-18" value="Analytics Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.096;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-1" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.082;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-4" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-5" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1.006;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-16" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1.015;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-18" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-24" value="User Live Websocket (Notofication)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.093;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-24" target="bE838J-4COU1uqkMOp3l-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=10;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-18" target="bE838J-4COU1uqkMOp3l-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-16" target="bE838J-4COU1uqkMOp3l-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-28" value="User Graph DB&lt;br&gt;PosgtreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.991;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bE838J-4COU1uqkMOp3l-24" target="bE838J-4COU1uqkMOp3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Service&lt;/h1&gt;&lt;p&gt;Вся связанная с пользователем информация.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;-getUser(Id)&lt;/li&gt;&lt;li&gt;-getEmail(id)&lt;/li&gt;&lt;li&gt;uodateUser&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Данныехраним в БД, а для ускорения получения данных - используем кэш&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-130" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Redis&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;User Details&lt;/li&gt;&lt;li&gt;Followers&lt;/li&gt;&lt;li&gt;Following&lt;/li&gt;&lt;li&gt;Type (Активные, Пассивные...)&lt;/li&gt;&lt;li&gt;Last Acess Time&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-130" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Graph Service&lt;/h1&gt;&lt;p&gt;Создает граф как люди соединены друг с другом, кто кого фоловит.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;addNewFollowLink&lt;/li&gt;&lt;li&gt;get AllFollowers&lt;/li&gt;&lt;li&gt;getAllFollowing&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Граф храним в БД и кэшируем. Сервис сначала идет в кэш, если не находит, то обращается к БД&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="100" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Analytics Service&lt;/h1&gt;&lt;p&gt;Изучает поведение пользователя, какие твиты ему больше интересны, какие события происходят. Эти ивенты отправляются в сервис.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="390" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bE838J-4COU1uqkMOp3l-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Live Websocket&lt;/h1&gt;&lt;p&gt;Если меня кто-то тэгнул, то ко мне придет нотификация через Websocket&lt;/p&gt;&lt;p&gt;Если пользовательзакрыл приложение и больше не онлайн,то эта информация отправляется в кафку.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Эта информация идет в User Service, кэшируется статус пользователя и LastAccessTime&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="610" width="350" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q5PPuQjYMYKJEl7qsEo-" name="Post a Tweet">
+    <mxGraphModel dx="1930" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-1" target="KZOrRtbOcxrzJnE5FZMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-1" value="Post a tweet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-2" target="KZOrRtbOcxrzJnE5FZMp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-2" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="85" width="80" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-4" target="KZOrRtbOcxrzJnE5FZMp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-4" target="KZOrRtbOcxrzJnE5FZMp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-4" target="KZOrRtbOcxrzJnE5FZMp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-4" target="KZOrRtbOcxrzJnE5FZMp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-4" value="Tweet Injection Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-6" target="KZOrRtbOcxrzJnE5FZMp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-6" value="Cassandra Cluster" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="630" y="77.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-8" target="KZOrRtbOcxrzJnE5FZMp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-8" value="Asset Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-9" value="Short URL Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-12" target="KZOrRtbOcxrzJnE5FZMp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-12" target="KZOrRtbOcxrzJnE5FZMp-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="215" />
+              <mxPoint x="40" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-12" value="CDN" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-14" value="User timeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-15" value="Home timeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.113;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-14" target="KZOrRtbOcxrzJnE5FZMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.113;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-15" target="KZOrRtbOcxrzJnE5FZMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-20" value="Timeline Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-20" target="KZOrRtbOcxrzJnE5FZMp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-22" target="KZOrRtbOcxrzJnE5FZMp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-22" value="Tweet Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Asset Service&lt;/h1&gt;&lt;p&gt;Отвечает за мультимедиа контент&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-110" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Short URL Service&lt;/h1&gt;&lt;p&gt;У твита лимит 140 символов, а URL может содержать больше, поэтому нужно делать короткий URL.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-75" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tweet Injection Service&lt;/h1&gt;&lt;p&gt;Отвечает за все что мы твитим&lt;/p&gt;&lt;p&gt;Первым делом сохраняет в БД&lt;/p&gt;&lt;p&gt;Не предоставляет getAPI&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-120" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cassandra Cluster&lt;/h1&gt;&lt;p&gt;Хранилище твитов&lt;/p&gt;&lt;p&gt;tweetID&lt;/p&gt;&lt;p&gt;userID&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="-110" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-30" value="Graph Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.834;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-30" target="KZOrRtbOcxrzJnE5FZMp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-32" target="KZOrRtbOcxrzJnE5FZMp-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-32" value="Kafka Cluster" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="80" width="100" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tweet Service&lt;/h1&gt;&lt;p&gt;Источник истины всех твитов&lt;/p&gt;&lt;p&gt;Предоставляет API для всех операций получения tweet&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="470" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-35" target="KZOrRtbOcxrzJnE5FZMp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-35" value="User Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User timeline&lt;/h1&gt;&lt;p&gt;Содержит все твиты и ретвиты, которые пользователь постил&lt;/p&gt;&lt;p&gt;select * from tweets in Cassandra where userID = &amp;lt;your userID&amp;gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="300" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Home timeline&lt;/h1&gt;&lt;p&gt;Показывает following твиты&amp;nbsp;&lt;/p&gt;&lt;p&gt;select * from tweets in Cassandra where userID in [following]&lt;/p&gt;&lt;p&gt;это тяжелый запрос, поэтому мы его кэшируем&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="465" width="240" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-39" target="KZOrRtbOcxrzJnE5FZMp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-39" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-41" target="KZOrRtbOcxrzJnE5FZMp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-41" value="Tweet processor" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tweet processor&lt;/h1&gt;&lt;p&gt;u1 запостил твит&lt;/p&gt;&lt;p&gt;получаем его фоловеров u2,u3,u4 из&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Graph Service&lt;/span&gt;&lt;/p&gt;&lt;p&gt;и есть пользователи кому надо проапдейтить таймлайн, чтобы этот твит там появился и помещает в кэш.&lt;/p&gt;&lt;p&gt;Из кэша через&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Timeline Service твит попадает на&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Home timeline&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="390" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-45" target="KZOrRtbOcxrzJnE5FZMp-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-51" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KZOrRtbOcxrzJnE5FZMp-50">
+          <mxGeometry x="-0.1236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-45" value="Live WebSocket (Notification)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="95" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.165;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-45" target="KZOrRtbOcxrzJnE5FZMp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-49" value="User App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-52" target="KZOrRtbOcxrzJnE5FZMp-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-52" target="KZOrRtbOcxrzJnE5FZMp-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZOrRtbOcxrzJnE5FZMp-52" target="KZOrRtbOcxrzJnE5FZMp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-52" value="u1:t1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-53" value="u2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="515" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-54" value="u4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="515" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-55" value="u3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="515" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-59" value="User:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-60" value="Followers:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-61" value="u2:t1.....&lt;div&gt;u3:t1.....&lt;/div&gt;&lt;div&gt;u4:t1.....&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Active/Passive Users&lt;/h1&gt;&lt;p&gt;Redis inmemory solution - он все данные размещает в памяти -&amp;gt; нам нужно большое количество RAM&lt;/p&gt;&lt;p&gt;Если мы начнем кэшировать все таймлайны - это будет не эффективно. Поэтому и была сделана категоризация пользователей в самом начале -&amp;gt; кэшируем только таймлайны активных пользователей.&lt;/p&gt;&lt;p&gt;В сценарии когда пассивный пользователь заходит, он обращается в&amp;nbsp;&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Timeline Service&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User Service - говорит какой пользователь сейчас активен&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Пользователь не активен, значит его нет в кэше, поэтому сервис запрашивает все необходимые данные чтобы сформировать таймлайн.&lt;/p&gt;&lt;p&gt;Идет в&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Graph Service запрашивает твиты, пользователей твиты которых фловит,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Запрашивает&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tweet Service - сервис отдает все твиты запрашиваемых пользователей за последний интервал времени, например день, пагинирует&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Затем в таймлайне сортируем твиты по времени, и возвращем пользователю&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Кэшируем в Redis.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KZOrRtbOcxrzJnE5FZMp-63" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Live Users&lt;/h1&gt;&lt;p&gt;это те, кто активны прямо сейчас, поэтому им не надо идти по пути Active/Passive.&lt;/p&gt;&lt;p&gt;Tweet Processor знает чьи таймлайны нужно апдейтить&lt;/p&gt;&lt;p&gt;Все твиты в любом случае идут через Kafka и мы знаем кто live user.&lt;/p&gt;&lt;p&gt;Если TweetProcessor видит, что пользователь живой - он отправляет ему твит в кафку и затем LiveWebsocket отправляет твит пользователю.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="620" width="330" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uDTAAY3LJbjV7Ao_xTEL" name="Analytics">
+    <mxGraphModel dx="1765" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-1" value="Tweet Ingestion Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-2" target="GjBxbgSpWyJWdwf7F0Mo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-2" value="Kafka" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="100" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-3" target="GjBxbgSpWyJWdwf7F0Mo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-3" value="Search Consumer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="61" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-1" target="GjBxbgSpWyJWdwf7F0Mo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-3" target="GjBxbgSpWyJWdwf7F0Mo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-6" value="Elastic Search Cluster" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-8" target="GjBxbgSpWyJWdwf7F0Mo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-8" value="Search UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-9" target="GjBxbgSpWyJWdwf7F0Mo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-9" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="65" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-11" target="GjBxbgSpWyJWdwf7F0Mo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-11" target="GjBxbgSpWyJWdwf7F0Mo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-11" value="Search Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-14" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-16" target="GjBxbgSpWyJWdwf7F0Mo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-16" target="GjBxbgSpWyJWdwf7F0Mo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-16" value="Spark Streaming" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-18" target="GjBxbgSpWyJWdwf7F0Mo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-18" value="Hadoop cluster" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-20" target="GjBxbgSpWyJWdwf7F0Mo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-20" value="Weekly Cron Job" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-22" target="GjBxbgSpWyJWdwf7F0Mo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-22" value="Notification Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-24" value="User Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-26" target="GjBxbgSpWyJWdwf7F0Mo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-26" value="Trends Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-28" target="GjBxbgSpWyJWdwf7F0Mo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-28" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-30" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="GjBxbgSpWyJWdwf7F0Mo-32" target="GjBxbgSpWyJWdwf7F0Mo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-32" value="Trends UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Tweet Ingestion Service&lt;/h1&gt;&lt;p&gt;Точка входа для всех твитов.&lt;/p&gt;&lt;p&gt;Отправляет события в кафку.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-110" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search Consumer&lt;/h1&gt;&lt;p&gt;Смотритна все твиты, входящие в систему и сохраняет в эластик для дальнейшего поиска.&lt;/p&gt;&lt;p&gt;По НФТ&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Идентификация текста&lt;/li&gt;&lt;li&gt;Релевантность текста&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;из всех твитов, у которых есть эта конкретная подстрока сортируются по релевантности. Есть различные реализации, самая простая - IDF (Inverse Document Frequency), которая смотрит как часто слово встречается в документе и присваивает ранг.&lt;/p&gt;&lt;p&gt;Elastic Search использует Lucene для реализации.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-280" width="360" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search UI&lt;/h1&gt;&lt;p&gt;Пользователь вводит строкупоиска и вызыввает метод&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Search Service&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-190" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search Service&lt;/h1&gt;&lt;p&gt;Запрашивает Elastic Search и отправляет результа пользователю.&lt;/p&gt;&lt;p&gt;Поскольку в НФТ требования что возможен лаг, то можно кэшировать результаты поиска.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-190" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Trends Service&lt;/h1&gt;&lt;p&gt;Тренды - одна из ключевых функций. оказывает кто в тренде - это дает представление о чем сейчас разговаривают люди. Поскольку данные обновляются и не нуждаются в постоянном хранилище используем Redis.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GjBxbgSpWyJWdwf7F0Mo-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Spark Streaming&lt;/h1&gt;&lt;p&gt;Вычисляет какое ключевое слово за последний час. Это не требует хэштега. Сплитит твит на слова по пробелу и затем дампит эти списки слов в хадуп. Затем агрегирует за последний час слова с максимальным использованием. Служебные слова, артикли игнорируются.&lt;/p&gt;&lt;p&gt;Максимально часто используемые слова передаются в&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Trends Service каждые полчаса.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="140" width="330" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
