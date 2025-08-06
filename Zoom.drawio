@@ -1,0 +1,881 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="6">
+  <diagram name="Требования" id="Gel03rUPRCGGP1p3-J7G">
+    <mxGraphModel dx="570" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CfjgGcxGA92cjzajuJ3_-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;FR&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1:1 звонки&lt;/li&gt;&lt;li&gt;групповые звонки&lt;/li&gt;&lt;li&gt;аудио\видео\экран показ&lt;/li&gt;&lt;li&gt;запись&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CfjgGcxGA92cjzajuJ3_-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NFR&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;super fast&lt;/li&gt;&lt;li&gt;High Availability&lt;/li&gt;&lt;li&gt;Data Loss - ok&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="180" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y4Qt9loU7gDMVbopoPri" name="Протоколы">
+    <mxGraphModel dx="1810" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-27" value="большое количество обменов на передачу 1 пакета" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-26" value="трехкратное рукопожатие" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="emH2GBO5lftQ995yCPM4-1" target="iVIRpkm4NJxj90OsdMC_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-4" value="HTTPS/HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-3">
+          <mxGeometry x="-0.2655" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emH2GBO5lftQ995yCPM4-1" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="emH2GBO5lftQ995yCPM4-2" target="iVIRpkm4NJxj90OsdMC_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-6" value="WebSocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-5">
+          <mxGeometry x="-0.5491" y="1" relative="1" as="geometry">
+            <mxPoint x="25" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emH2GBO5lftQ995yCPM4-2" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-1" value="Service 1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="125" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-2" value="Service 2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="255" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;TCP&lt;/h1&gt;&lt;p&gt;Клиент отправляет серверу: я хочу с тобой соединиться&lt;/p&gt;&lt;p&gt;Сервер отправляет ответ клиенту: ОК&lt;/p&gt;&lt;p&gt;Клиент отправляет серверу: ОК&lt;/p&gt;&lt;p&gt;Клиент отправляет пакет Р1&lt;/p&gt;&lt;p&gt;Сервер отправляет клиенту P1 ack&amp;nbsp;&lt;/p&gt;&lt;p&gt;если Клиент не получил&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;P1 ack, то он снова отправляет пакет&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;P1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Сервер определяет порядок сбора пакетов на сервере&lt;/span&gt;&lt;/p&gt;&lt;p&gt;TCP - lostless protocolпоэтому он медленный. На отправку одного пакета приходится 2 или больше обмена сообщениями.&lt;/p&gt;&lt;p&gt;Для нашего сценария это очень плохо, потому ыто по нашим НФТ: мы можем терять пакеты, но должно быть супер быстро.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Будем использовать для коммуникации со служебными сервисами&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="370" width="400" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-8" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-9" value="Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.48;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iVIRpkm4NJxj90OsdMC_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="650" as="sourcePoint" />
+            <mxPoint x="340" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.48;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="650" as="sourcePoint" />
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="530" as="sourcePoint" />
+            <mxPoint x="550" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-17" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-13">
+          <mxGeometry x="-0.1032" y="1" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-14" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="490" as="sourcePoint" />
+            <mxPoint x="550" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-16" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-14">
+          <mxGeometry x="-0.1453" y="1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="560" as="sourcePoint" />
+            <mxPoint x="550" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-18" value="соединение установлено" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-15">
+          <mxGeometry x="-0.1916" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="600" as="sourcePoint" />
+            <mxPoint x="550" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-21" value="Р1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-20">
+          <mxGeometry x="-0.0989" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-23" value="P1 ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-22">
+          <mxGeometry x="0.1242" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="640" as="sourcePoint" />
+            <mxPoint x="550" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-25" value="Р1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-24">
+          <mxGeometry x="-0.0989" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UDP&lt;/h1&gt;&lt;p&gt;Клиент хочет отправить что-то серверу&lt;/p&gt;&lt;p&gt;Отправляет P1 сервер получает Р1 и если пакет патерян, то повторно он не отправляетя&lt;/p&gt;&lt;p&gt;Поэтому он может терять пакты, но будем бысрым&lt;/p&gt;&lt;p&gt;Порядок пакетовне поддерживается&lt;/p&gt;&lt;p&gt;Будем использовать для передачи видео&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="290" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-29" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="980" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-30" value="Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.48;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iVIRpkm4NJxj90OsdMC_-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="650" as="sourcePoint" />
+            <mxPoint x="1020" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.48;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="650" as="sourcePoint" />
+            <mxPoint x="1230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-46" value="P1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-33">
+          <mxGeometry x="-0.0309" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="529.8" as="sourcePoint" />
+            <mxPoint x="1230" y="529.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-35" value="P3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-34">
+          <mxGeometry x="-0.1032" y="1" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-36" value="" style="endArrow=cross;html=1;rounded=0;startArrow=none;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="490" as="sourcePoint" />
+            <mxPoint x="1230" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-37" value="P2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="iVIRpkm4NJxj90OsdMC_-36">
+          <mxGeometry x="-0.1453" y="1" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVIRpkm4NJxj90OsdMC_-47" value="Р3,Р1..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="475" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fnxiFaVytGviBcZGogv1" name="WebRTC">
+    <mxGraphModel dx="815" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-1" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-2" target="uMtdusBj7zZuRdLd3NMC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-6" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-3">
+          <mxGeometry x="-0.2396" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-2" target="uMtdusBj7zZuRdLd3NMC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-7" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-5">
+          <mxGeometry x="-0.3587" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-2" value="WebSocket handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-4" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WebSocket handler&lt;/h1&gt;&lt;p&gt;Когда U1 хочет отправить сообщение U2 он говорит об этом хэндлеру, чтобы он нашел U2.&lt;/p&gt;&lt;p&gt;Такх хэндлеров в всистеме много и они могут масштабироваться.&lt;/p&gt;&lt;p&gt;&amp;nbsp;U1 хочет инициировать звонок с U2, он проходит тот же путь:&lt;/p&gt;&lt;p&gt;- информирует&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WebSocket handler, что хочет сделать видеозвонок с U2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- первым делом хэндлер ищет на каком хэндлере U2 online или неактивен&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- если пользователь offlineэто може быть обработано несколькими способами...&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- если U2 online, хэндлер отправляет сообщение U2 о том, что U1 хочет инициировать звонок и запросом будет принято (accept)&amp;nbsp; приглашение или нет&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- если U2 accepted, то аккцепт идет по тому же пути и соединение устанавливается&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;если U2 rejected, то сообщение идет по тому же пути b&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;пользователь может быть допущен на другом устройстве и U1 видит что U2 не может ответить на звонок&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Однако, WS это протокол поверх TCP, а нам видеозвонок надо сделать поверх UDP&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Было бы хорошо, если бы пользователи установили напрямую UDP peer-to-peer. Если бы это было возможно, это было бы лучшим решением, потому что дало бы наименьшую задержку и не было бы зависимости от хэндлера. Это уменьшило бы стоимость сервис провайдера, потому чтоон бы не участвовал в каждом звонке и не передавал бы нагрузку между звонящими.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="570" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UDP&lt;/h1&gt;&lt;p&gt;connection less протокол, в нем нет connection. Когда кто-то хочет послать UDP сообщение, то вызывается метод для заданного IP, для заданного Port и сообщение уходит. Но я всегда думаю о том, что соединение должно быть хорошим. U1 должен понимать как отправить UDP пакет U2 и аналогично U2.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; Для этого нужно, чтобы у U1 и U2 были публичные IP адреса. Для этого используют Connector.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="790" width="550" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-10" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-15" target="uMtdusBj7zZuRdLd3NMC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-12" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-11">
+          <mxGeometry x="-0.2396" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-15" target="uMtdusBj7zZuRdLd3NMC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-14" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-13">
+          <mxGeometry x="-0.3587" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-15" value="WebSocket handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1004" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-16" target="uMtdusBj7zZuRdLd3NMC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-16" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-17" value="Connector" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1070" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-10" target="uMtdusBj7zZuRdLd3NMC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Connector&lt;/h1&gt;&lt;p&gt;его задачи определять публичные адреса обоих пользователей и информировать их.&lt;/p&gt;&lt;p&gt;Нужно запросить коннектор и он вернет твой публичный IP адрес, затем через&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WebSocket handler происходит обмен публичными IP и затем они начинают слать друг другу сообщения по UDP.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;Однако у 70% устройств нет публичного IP адреса. Это главная проблема, которую нам надо решить. Большинство устройств подключены по приватным IP адресам, например через домашний роутер, котрый в свою очередь тоже имеет приватный IP адрес и так далее до ISP-роутера, который имеет публичный IP адрес.&lt;/p&gt;&lt;p style=&quot;&quot;&gt;Проблема делится на 2 части:&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1200" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ISP-роутер&lt;/h1&gt;&lt;p&gt;ISP-роутер, или роутер интернет-провайдера (ISP, Internet Service Provider), это роутер, который провайдер предоставляет абоненту для доступа в интернет. Часто это устройство, которое получает интернет по проводному или беспроводному каналу и раздает его по Wi-Fi или кабелю на другие устройства в доме&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1200" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-22" target="uMtdusBj7zZuRdLd3NMC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-34" value="c" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-30">
+          <mxGeometry x="-0.2683" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-22" value="Connector" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1410" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-23" value="1.2.3.4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="847" y="1380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-24" value="to: A.B.C.D:P&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1410" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-25" value="msg: A.B.C.D:P&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1430" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-26" value="" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.router;network2IconXOffset=0.0001;network2IconYOffset=-0.1142;network2IconW=1;network2IconH=0.5485;" vertex="1" parent="1">
+          <mxGeometry x="852" y="1531.07" width="50" height="27.425" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-28" target="uMtdusBj7zZuRdLd3NMC-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-44" value="c1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-38">
+          <mxGeometry x="0.365" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-47" value="P1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-38">
+          <mxGeometry x="-0.4741" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-28" target="uMtdusBj7zZuRdLd3NMC-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-46" value="c3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-40">
+          <mxGeometry x="0.4574" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-49" value="P3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-40">
+          <mxGeometry x="-0.5085" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-28" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.network;network2IconW=1;network2IconH=0.8601;" vertex="1" parent="1">
+          <mxGeometry x="852" y="1590" width="50" height="43.004999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=0.066;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-26" target="uMtdusBj7zZuRdLd3NMC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-31" value="Router" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1531.07" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-32" value="NAT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="907" y="1596.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-33" value="A.B.C.D" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1501.07" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-35" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.monitor;network2IconYOffset=-0.009;network2IconW=1;network2IconH=0.742;" vertex="1" parent="1">
+          <mxGeometry x="939.5" y="1727" width="50" height="37.1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-36" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.mobile_phone;network2IconXOffset=0.0049;network2IconW=0.5297;network2IconH=1.02;" vertex="1" parent="1">
+          <mxGeometry x="863.26" y="1727" width="26.484999999999996" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-37" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.pc;network2IconYOffset=-0.0593;network2IconW=0.9999;network2IconH=0.7096;" vertex="1" parent="1">
+          <mxGeometry x="769.5" y="1728.62" width="49.995" height="35.480000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uMtdusBj7zZuRdLd3NMC-28" target="uMtdusBj7zZuRdLd3NMC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-45" value="c2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-39">
+          <mxGeometry x="0.4589" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-48" value="P2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMtdusBj7zZuRdLd3NMC-39">
+          <mxGeometry x="-0.4106" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-41" value="192.168.1.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="764.5" y="1787" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-42" value="192.168.1.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="851.5" y="1787" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-43" value="192.168.1.3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="939.5" y="1787" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-50" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;как пользователю определить свой публичный IP&amp;nbsp;&lt;/h1&gt;&lt;p&gt;Коннектор имеет IP 1.2.3.4 и у нас есть три устройства с приватными IP: 192.168.1.1-3&lt;/p&gt;&lt;p&gt;Когда компьютер захочет определить свой публичный IP адрес он пойдет к роутеру и установит соединение c1 по порту P1. На нем запущен NAT - Network Address Translator соединяет публичный адрес с приватным.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Поэтому компьютер отправит&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Connector&lt;/span&gt;&amp;nbsp;запрос, чтобы он сказал ему публичный IP адрес:&lt;/p&gt;&lt;p&gt;192.168.1.1 отправляет на роутер и тот перенаправляет на 1.2.3.4&lt;/p&gt;&lt;p&gt;Когда&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Connector получает запрос, он знает, что это запрос от A.B.C.D и порта P1 и он отправляет&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;to: A.B.C.D:P&lt;/span&gt;&lt;sub style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;1 &lt;/sub&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;сообщение msg&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;: A.B.C.D:P&lt;/span&gt;&lt;sub style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;1&lt;/sub&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;теперь устройство знает свой IP адрес&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Аналогично с остальными устройствами.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1430" width="660" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-51" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QoS&lt;/h1&gt;&lt;p&gt;Допустим U1 имеет хороший интенет и поддерживает HD видео, а U2 допустим видео с низким разрешением. Мы не сможем общаться на HD, поскольку U2 не сможет его принять.&lt;/p&gt;&lt;p&gt;Пользователи через&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WebSocket handler обмениваются атрибутами качества связи и конфигурациями:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- какое качество сети у них&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;- какие кодеки поддеривают&lt;/p&gt;&lt;p style=&quot;&quot;&gt;- разрешение&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="129" y="1680" width="570" height="221.38" as="geometry" />
+        </mxCell>
+        <mxCell id="uMtdusBj7zZuRdLd3NMC-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Синхронизация начала звонка&lt;/h1&gt;&lt;p&gt;Звонок это стрим пакетов которые отправляются из IP1:Port1 в IP2:Port2&lt;/p&gt;&lt;p&gt;Каждое устройство имеет две вещи:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;send payload&lt;/li&gt;&lt;li&gt;recieve payload&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Каждое устройство должно само заботится как декодируется видео и как оно рендерится.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="129" y="1910" width="521" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Call server&lt;/h1&gt;&lt;p&gt;На роутере может быть уже занят порт, может стоять фаервол и тогда соединение будет невозможно, решение - Call Server. Это комбинация коннектора + передача данных.Он также уднает публичные адреса и отправляет их по запросу U1 и U2.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Это промежуточный слой для U1 U2 чтобы поговорить друг с другом.&lt;/p&gt;&lt;p&gt;Если U1 не может отправить U2 сообщения, то он обращается к&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Call Server, который перенаправляет U2, U2 отвечает и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Call Server пересылает ответ U1. Так происходит коммуникация, когда peer-to-peer между ними не случился.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="2430" width="560" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-2" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-7" target="JI0ehKXqyX115v8ErUE5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-4" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JI0ehKXqyX115v8ErUE5-3">
+          <mxGeometry x="-0.2396" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-7" target="JI0ehKXqyX115v8ErUE5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-6" value="WS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JI0ehKXqyX115v8ErUE5-5">
+          <mxGeometry x="-0.3587" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-7" value="WebSocket handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2117" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-9" target="JI0ehKXqyX115v8ErUE5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-9" target="JI0ehKXqyX115v8ErUE5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-9" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-10" value="Connector" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2183" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-2" target="JI0ehKXqyX115v8ErUE5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-12" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2247" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="JI0ehKXqyX115v8ErUE5-2" target="JI0ehKXqyX115v8ErUE5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;u&gt;WebRTC&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JI0ehKXqyX115v8ErUE5-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WebRTC&lt;/h1&gt;&lt;p&gt;WebSocket handler = Signalling&lt;/p&gt;&lt;p&gt;Connector = STUN&lt;/p&gt;&lt;p&gt;Call Server = TURN&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="2670" width="545" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TE4eSkEwwejx-8GYcskN" name="Group">
+    <mxGraphModel dx="679" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Группы&lt;/h1&gt;&lt;div&gt;Группы классифицируются на две категории:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;маленькая - до 5 пользователей&lt;/li&gt;&lt;li&gt;большая - больше 5 пользователей&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;Для большого количества пользователей отправить всем видеопоток становится проблемой.&lt;/div&gt;&lt;div&gt;Если в группе N человек,то каждый пользователь имеет нагрузку сети *(N-1)&lt;/div&gt;&lt;div&gt;Для решения этой проблемы используется Call Server&lt;/div&gt;&lt;div&gt;5 - это не статический номер, а динамический и решается когда создается звонок и зависит от сети, откуда участники.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Если пользователи в одной сети в одном оффисе, то они могут связваться напрямую. В приватных сетях низкая задержка. Если из разных стран и географий, то возможно это будет 3 пользователя&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="520" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-2" target="hkTHWe1qlQeWKHWPXNA2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-2" target="hkTHWe1qlQeWKHWPXNA2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-2" target="hkTHWe1qlQeWKHWPXNA2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-2" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-3" value="U4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-4" value="U3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-5" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Call Server&lt;/h1&gt;&lt;p&gt;Видеостри отправляется в Call Server и CallServer разошлет эту информацию на всех пользователей.&lt;/p&gt;&lt;p&gt;Видеострим принимается из&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Call Server&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;В этом случае&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Call Server становится высоконагруженным, но мы его можем масштабировать. Это решение для больших групп.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Отвечает за запись звонка. Поэтому, если звонок записываем, то используем&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Call Server, если нет, то возможен peer-to-peer.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-13" target="hkTHWe1qlQeWKHWPXNA2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-13" target="hkTHWe1qlQeWKHWPXNA2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;endArrow=none;endFill=0;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-13" target="hkTHWe1qlQeWKHWPXNA2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hkTHWe1qlQeWKHWPXNA2-13" target="hkTHWe1qlQeWKHWPXNA2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-13" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-14" value="U4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-15" value="U3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-16" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-17" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hkTHWe1qlQeWKHWPXNA2-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Безопасность&lt;/h1&gt;&lt;p&gt;Каналы взаимодействия могут шифроваться, это значит, что перед отправкой U1 кодирует сообщение, а U2 его декодирует.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="470" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wMRvD3GgSdw75aPv3FNp" name="Архитектура">
+    <mxGraphModel dx="2015" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-1" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="115" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-2" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="382" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-3" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D9TqlPC9nVoE7FITkYlW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.28571428571422" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9TqlPC9nVoE7FITkYlW-3" value="peer-to-peer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D9TqlPC9nVoE7FITkYlW-2">
+          <mxGeometry x="-0.107" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-4" value="U1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-5" target="5-BGzJdZFCUUiWKCU2GZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="160" />
+              <mxPoint x="350" y="80" />
+              <mxPoint x="190" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-5" target="5-BGzJdZFCUUiWKCU2GZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-5" target="5-BGzJdZFCUUiWKCU2GZ-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+              <mxPoint x="510" y="200" />
+              <mxPoint x="510" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-5" value="WebSocket handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-7" target="5-BGzJdZFCUUiWKCU2GZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-7" value="U2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-8" target="5-BGzJdZFCUUiWKCU2GZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-8" value="Connector STUN&amp;nbsp;&lt;div&gt;Server&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-9" target="5-BGzJdZFCUUiWKCU2GZ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-9" value="Call Server TURN" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="387" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-12" target="5-BGzJdZFCUUiWKCU2GZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-12" value="WebSocket Manager" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-14" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="710" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-16" value="Kafka" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="230" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-17" value="Analytics Engine" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-18" target="5-BGzJdZFCUUiWKCU2GZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-18" target="5-BGzJdZFCUUiWKCU2GZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-18" target="V76KZTJd7qSdwUnoHqrH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-18" value="File Creator" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-19" value="Notification Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-21" value="S3" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="410" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-17" target="5-BGzJdZFCUUiWKCU2GZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.82;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-18" target="5-BGzJdZFCUUiWKCU2GZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-25" value="User Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="275" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WatsApp&lt;/h1&gt;&lt;p&gt;Данная архитектура является расширением архитектуры WatsApp&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-10" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-27" value="Signaling Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="205" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-5" target="5-BGzJdZFCUUiWKCU2GZ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="170" />
+              <mxPoint x="530" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-27" target="5-BGzJdZFCUUiWKCU2GZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-29" value="Analytics Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="275" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-30" value="Transcending Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;U1&lt;/h1&gt;&lt;p&gt;Инициирует звонок с U2&lt;/p&gt;&lt;p&gt;Накапливает статистику по звонку (как меняется сигнал WiFi, какой заряд батарейки,..) и отправляет в&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WebSocket handler&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="50" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-32" value="Logger Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="437" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-27" target="5-BGzJdZFCUUiWKCU2GZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-9" target="5-BGzJdZFCUUiWKCU2GZ-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="364" />
+              <mxPoint x="525" y="364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WebSocket handler&lt;/h1&gt;&lt;p&gt;Поддерживает живым соединение со всеми пользователями, активными в этой системе.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-20" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WebSocket Manager&lt;/h1&gt;&lt;p&gt;Отслеживает какой машине (хосту) принадлежит&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;WebSocket handler, который общается с конкретным пользователем.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Использует редис и сохраняет данные на диск, не только в памяти&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="-30" width="253" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Signaling Service&lt;/h1&gt;&lt;p&gt;Инициирует обмен между двумя участниками. Имеет некоторые политики, которые проверяют определенные условия, например в фейсбуке нельзя звонить не другу.&lt;/p&gt;&lt;p&gt;Взаимодействует с&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User Service&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Форвардит от U1 запрос U2 и возвращает ответ обратно.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Когда сеть замедляется у U2 то он отправляет сообщение хэндлеру и он перенаправляет в Signaling Service. Это событие отправляется в кафку, что bandwith (пропускная способность сети) изменилась&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;При завершении звонка сервис получает событие, которое отправляет в кафку.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-110" width="290" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Service&lt;/h1&gt;&lt;p&gt;Репозиторий пользователей в системе.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;startArrow=classic;startFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-7" target="5-BGzJdZFCUUiWKCU2GZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-4" target="5-BGzJdZFCUUiWKCU2GZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5-BGzJdZFCUUiWKCU2GZ-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Connector STUN&amp;nbsp;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Server&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Отвечает за разговор собеседников, за публичные адреса, кто какие кодеки и разрешения поддерживает&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="230" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D9TqlPC9nVoE7FITkYlW-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Call Server TURN&lt;/h1&gt;&lt;p&gt;промежуточный слой для U1 U2 чтобы поговорить друг с другом..&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="400" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Поизменения&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;bandwith можно судить по стабильности сети в зависимости от географии и принимать какие то бизнес решения.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="85" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Analytics Service&lt;/h1&gt;&lt;p&gt;Собирает статистику с устройств и отправляет события в кафку.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="500" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Logger Service&lt;/h1&gt;&lt;p&gt;Это записывающая система&lt;/p&gt;&lt;p&gt;Поддерживает функцию:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;записи звонка (все коммуникации идут через CallServer, peer-to-peer не поддерживается)&lt;/li&gt;&lt;li&gt;просмотра записанного разговора&lt;/li&gt;&lt;li&gt;логирует все сообщения пользователей&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Агрегирует чанки и сохраняет их в распределенную фйловую систему.&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="520" width="314" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-5" value="Распределенная ФС" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="5-BGzJdZFCUUiWKCU2GZ-32" target="V76KZTJd7qSdwUnoHqrH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;File Creator&lt;/h1&gt;&lt;p&gt;Подписан на событие кафки завершение звонка meetingId. Читает все чанки этого звонка, обрабатывает, делает видеоролик и сохраняет в другое хранилище - S3.&lt;/p&gt;&lt;p&gt;Вызывает&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Notification Service&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="487" width="270" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notification Service&lt;/h1&gt;&lt;p&gt;Оповещает участников разговора, что он был записан и дает ссылку на файл.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="390" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V76KZTJd7qSdwUnoHqrH-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Transcending Service&lt;/h1&gt;&lt;p&gt;Поддерживает групповые звонки (см.YouTube/Netflix).&amp;nbsp;&lt;/p&gt;&lt;p&gt;Каждый пользователь приходит с разной шириной канала bandwidth, с разным поддерживаемым разрешением, разными поддерживаемыми форматами и сервис оригинальное видео преобразует в различные форматы&lt;/p&gt;&lt;p&gt;Преобразование идет с понижением качества, так как обратное не имеет смысла. Из плохого хорошее не сделаешь.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="340" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fYd3HVg2IGutq4zPd6vu" name="BigEvents">
+    <mxGraphModel dx="983" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-1" value="Mobile Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-2" value="TV Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-3" value="TV Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-4" value="Laptop Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-5" target="D3kcx7zFz_-Q5P3dZETf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-5" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="175" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-7" target="D3kcx7zFz_-Q5P3dZETf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-7" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="265" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-8" target="D3kcx7zFz_-Q5P3dZETf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-8" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-9" target="D3kcx7zFz_-Q5P3dZETf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-9" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1.007;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-5" target="D3kcx7zFz_-Q5P3dZETf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1.007;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-5" target="D3kcx7zFz_-Q5P3dZETf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-7" target="D3kcx7zFz_-Q5P3dZETf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0.99;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-7" target="D3kcx7zFz_-Q5P3dZETf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1.003;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-8" target="D3kcx7zFz_-Q5P3dZETf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1.023;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-8" target="D3kcx7zFz_-Q5P3dZETf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-9" target="D3kcx7zFz_-Q5P3dZETf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-9" target="D3kcx7zFz_-Q5P3dZETf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-26" value="Пример масштабирования большого спортивного события" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-27" target="D3kcx7zFz_-Q5P3dZETf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-27" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.cctv;network2IconXOffset=-0.0002;network2IconYOffset=-0.0355;network2IconW=1.0004;network2IconH=0.7279;" vertex="1" parent="1">
+          <mxGeometry x="920" y="260" width="50.019999999999996" height="36.394999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-30" target="D3kcx7zFz_-Q5P3dZETf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-30" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.cctv;network2IconXOffset=-0.0002;network2IconYOffset=-0.0355;network2IconW=1.0004;network2IconH=0.7279;" vertex="1" parent="1">
+          <mxGeometry x="920" y="380" width="50.019999999999996" height="36.394999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-31" target="D3kcx7zFz_-Q5P3dZETf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-31" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.cctv;network2IconXOffset=-0.0002;network2IconYOffset=-0.0355;network2IconW=1.0004;network2IconH=0.7279;" vertex="1" parent="1">
+          <mxGeometry x="920" y="318.61" width="50.019999999999996" height="36.394999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-32" target="D3kcx7zFz_-Q5P3dZETf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-32" value="Input Manager" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="311.81" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-36" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="530" as="sourcePoint" />
+            <mxPoint x="690" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-37" target="D3kcx7zFz_-Q5P3dZETf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-37" target="D3kcx7zFz_-Q5P3dZETf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-37" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="311.81" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-38" target="D3kcx7zFz_-Q5P3dZETf-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-38" value="Transcoder" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-39" target="D3kcx7zFz_-Q5P3dZETf-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-39" value="Transcoder" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-43" target="D3kcx7zFz_-Q5P3dZETf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-43" target="D3kcx7zFz_-Q5P3dZETf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-43" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-45" target="D3kcx7zFz_-Q5P3dZETf-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D3kcx7zFz_-Q5P3dZETf-45" target="D3kcx7zFz_-Q5P3dZETf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-45" value="Call Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-51" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Input Manager&lt;/h1&gt;&lt;p&gt;Может быть хардварным или софтовым&amp;nbsp; и его задача агрегировать все видеопотоки и решать какая камера сейчас будет стримить и с какого аудиодевайса пойдет звук.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="465" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D3kcx7zFz_-Q5P3dZETf-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Users&lt;/h1&gt;&lt;p&gt;Классифицируем пользователейпо устройствам и для них транскодируем и выделяем отдельные Call Server.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="260" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
