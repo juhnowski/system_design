@@ -1,0 +1,228 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="2">
+  <diagram name="требования" id="K8O-UbPnnHuOY16jFzG_">
+    <mxGraphModel dx="679" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MkDzH_rQJFl5ClzxtzA8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NFR&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Low Latency&lt;/li&gt;&lt;li&gt;High Avalability&lt;/li&gt;&lt;li&gt;High Consistency&lt;/li&gt;&lt;li&gt;Scale:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;500k Hotels&lt;/li&gt;&lt;li&gt;10 M Roms&lt;/li&gt;&lt;li&gt;1000 Rooms\ Hotel (max 7500)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MkDzH_rQJFl5ClzxtzA8-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;FR&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Hotel&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Onboarding&lt;/li&gt;&lt;li&gt;Updates&lt;/li&gt;&lt;li&gt;Booking&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;User&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Search&lt;/li&gt;&lt;li&gt;Book&lt;/li&gt;&lt;li&gt;Check Bookings&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Analytics&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="180" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oFaOXJa3zJh9_fPyX7D8" name="Страница — 2">
+    <mxGraphModel dx="1810" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-1" target="A7OHAAQnRAvAKOBAdCBx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-1" value="UI\App&amp;nbsp;&lt;br&gt;for Hotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-2" value="UI\App&amp;nbsp;&lt;br&gt;for Users&lt;div&gt;-Search&lt;/div&gt;&lt;div&gt;- Book&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="416" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-3" value="UI\App&amp;nbsp;&lt;br&gt;to View Bookings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-4" target="A7OHAAQnRAvAKOBAdCBx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-4" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-5" target="A7OHAAQnRAvAKOBAdCBx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-5" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-6" target="A7OHAAQnRAvAKOBAdCBx-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-6" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-7" target="A7OHAAQnRAvAKOBAdCBx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-7" value="LB" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-8" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="595" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-9" value="Hotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="625" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-2" target="A7OHAAQnRAvAKOBAdCBx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-2" target="A7OHAAQnRAvAKOBAdCBx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-8" target="A7OHAAQnRAvAKOBAdCBx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-9" target="A7OHAAQnRAvAKOBAdCBx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-15" target="A7OHAAQnRAvAKOBAdCBx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-15" target="A7OHAAQnRAvAKOBAdCBx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-15" value="Hotel Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="363.5" y="265" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-17" target="A7OHAAQnRAvAKOBAdCBx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-17" value="CDN" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="364" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-20" value="PostgreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="265" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-22" target="A7OHAAQnRAvAKOBAdCBx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-22" value="Search Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-24" value="Elastic Search" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-26" target="A7OHAAQnRAvAKOBAdCBx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-26" value="Search Consumer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-28" value="Kafka" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="320" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-15" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="303" />
+              <mxPoint x="490" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-30" value="Hadoop Cluster" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-31" target="A7OHAAQnRAvAKOBAdCBx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-31" value="Spark Streaming Consumer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="968" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-31" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-34" target="A7OHAAQnRAvAKOBAdCBx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-34" target="A7OHAAQnRAvAKOBAdCBx-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-34" value="Booking Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-36" value="Payment Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-38" target="A7OHAAQnRAvAKOBAdCBx-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="613" />
+              <mxPoint x="490" y="570" />
+              <mxPoint x="550" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-38" value="Booking Management Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="363" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-40" target="A7OHAAQnRAvAKOBAdCBx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-40" value="Redis" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-41" target="A7OHAAQnRAvAKOBAdCBx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-41" value="Cassandra" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-44" target="A7OHAAQnRAvAKOBAdCBx-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-44" value="Archival Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-45" target="A7OHAAQnRAvAKOBAdCBx-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-45" value="PostgreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.108;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-34" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.073;entryY=0.83;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-44" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-26" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-53" value="Notification Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="980" y="560" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.037;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="A7OHAAQnRAvAKOBAdCBx-53" target="A7OHAAQnRAvAKOBAdCBx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UI\App&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;for Hotel&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;UI для менеджеров отелей&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;онбординг платформы&lt;/li&gt;&lt;li&gt;редактирование свойств&lt;/li&gt;&lt;ul&gt;&lt;li&gt;добавить новое изображение&lt;/li&gt;&lt;li&gt;добавить новую комнату&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Веб или мобильное приожение&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="200" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hotel Service&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Предоставляет Hotel API:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;onboarding&lt;/li&gt;&lt;li&gt;management&lt;/li&gt;&lt;/ul&gt;Поскольку данные хорошо структурированы, то сохраняем их в РСУБД, например PostgreSQL&lt;p&gt;&lt;/p&gt;&lt;div&gt;Все загружаемые картинки немедленно загружаются в CDN и url ресурсов в CDN сохраняется в PostgreSQL&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Все изменения отправляются в кафку.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CDN&lt;/h1&gt;&lt;p&gt;Географически распределенный сервис&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-58" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search Consumer&lt;/h1&gt;&lt;p&gt;Слушает кафку. Например в отеле появилась новая комната.&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hotel Service отправляет это событие в кафку,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Search Consumer вычитывает это событие и сохраняет в свою базу данных, которая будет использоваться для поиска на сайте.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Если комната забранирована, то это событие вычитывается из кафки и комната больше не показывется в поиске.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="400" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-59" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Elastic Search&lt;/h1&gt;&lt;p&gt;Базируется на движке Lucene и реализует fuzzy search, так как пользователь может ввести некорректное географиеское название.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-60" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search Service&lt;/h1&gt;&lt;p&gt;Обеспечивает функциональность поиска на сайте.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-61" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Booking Service&lt;/h1&gt;&lt;p&gt;Когда происходит бронирование, информация сохраняется в БД и вызывается&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Payment Service. Производится платеж, приходит подтверждение, которое сохраняется в БД и отправляется событие в кафку.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="710" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Archival Service&lt;/h1&gt;&lt;p&gt;После завершения букинга (отмена или завершено) эта запись перемещается из PostgreSQL в Cassandra.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="730" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A7OHAAQnRAvAKOBAdCBx-63" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notification Service&lt;/h1&gt;&lt;p&gt;Сервис нотификации пользователей - прослушивает события кафки и отправляет нотификации.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="640" width="260" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
